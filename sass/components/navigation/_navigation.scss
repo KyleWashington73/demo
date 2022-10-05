@@ -6,6 +6,12 @@
 	width: 20px;
 }
 }
+// Using this to style the logo //
+.custom-logo {
+	height: 100px;
+	width: 100px;
+}
+
 .main-navigation {
 	display: block;
 	width: 100%;
@@ -69,7 +75,13 @@
 	a {
 		display: block;
 		text-decoration: none;
-		text-color: #000000;
+		color: #000000;
+		&:hover {
+			color: blue;
+		}
+		&:active {
+			color: red;
+		}
 	}
 
 	.current_page_item > a,

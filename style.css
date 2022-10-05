@@ -628,6 +628,11 @@ textarea {
   width: 20px;
 }
 
+.custom-logo {
+  height: 100px;
+  width: 100px;
+}
+
 .main-navigation {
   display: block;
   width: 100%;
@@ -668,7 +673,13 @@ textarea {
 .main-navigation a {
   display: block;
   text-decoration: none;
-  text-color: #000000;
+  color: #000000;
+}
+.main-navigation a:hover {
+  color: blue;
+}
+.main-navigation a:active {
+  color: red;
 }
 /* Small menu. */
 .menu-toggle,
