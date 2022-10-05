@@ -1,3 +1,11 @@
+.site-header  {
+	height: auto;
+	background-color: darkkhaki;
+.site-header{
+	height: 20px;
+	width: 20px;
+}
+}
 .main-navigation {
 	display: block;
 	width: 100%;
@@ -7,6 +15,7 @@
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
+		float: right;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -56,10 +65,11 @@
 		&.focus > a {
 		}
 	}
-
+  // Style links here? //
 	a {
 		display: block;
 		text-decoration: none;
+		text-color: #000000;
 	}
 
 	.current_page_item > a,
