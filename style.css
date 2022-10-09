@@ -60,6 +60,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Gemunu+Libre&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -458,6 +462,8 @@ big {
 --------------------------------------------- */
 body {
   background: #fff;
+  font-family: "Cinzel Decorative", cursive;
+  font-family: "Gemunu Libre", sans-serif;
 }
 
 hr {
@@ -519,9 +525,6 @@ table {
 --------------------------------------------- */
 a {
   color: #4169e1;
-}
-a:visited {
-  color: #800080;
 }
 a:hover, a:focus, a:active {
   color: #191970;
@@ -675,6 +678,7 @@ textarea {
   color: #fff;
 }
 .main-navigation a:hover {
+  color: #ffffff;
   background-color: blue;
 }
 .main-navigation a:active {
@@ -717,15 +721,67 @@ textarea {
   flex: 1 0 50%;
 }
 
+.site-footer:hover {
+  color: blue;
+}
+.site-footer:active {
+  color: red;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkkhaki;
+  color: darkkhaki;
+  text-align: left;
+  padding-left: 100px;
+}
+
+a {
+  text-decoration: none;
+  padding: 13px 30px;
+  color: #ffffff;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  color: red;
+}
+
+ul {
+  float: right;
+  display: flex;
+}
+
+p {
+  color: #ffffff;
+  text-align: left;
+  padding-top: 50px;
+}
+
+.fa-github {
+  margin-left: 375px;
+  color: #ffffff;
+  padding: 50px;
+}
+
+.fa-wordpress {
+  color: #ffffff;
+  padding: 50px;
+}
+
+.fa-linkedin {
+  color: #ffffff;
+  padding: 50px;
+}
+
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
   display: block;
-}
-
-.post,
-.page {
-  margin: 0 0 1.5em;
 }
 
 .updated:not(.published) {
@@ -775,7 +831,7 @@ textarea {
 
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
-  display: inline-block;
+  display: inline;
 }
 
 /* Captions

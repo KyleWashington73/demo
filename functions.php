@@ -50,6 +50,8 @@ function demo_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'demo' ),
+			'footer-menu' => __('Footer Menu', 'thesetup-practice01'),
+
 		)
 	);
 

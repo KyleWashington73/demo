@@ -1,0 +1,63 @@
+.site-footer {
+    &:hover {
+        color: blue;
+    }
+    &:active {
+        color: red;
+    }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkkhaki;
+    color: darkkhaki;
+    text-align: left;
+    padding-left: 100px;
+ }
+
+ a {
+		text-decoration: none;
+		// use padding for box effect! //
+		padding: 13px 30px;
+		color: #ffffff;
+		&:hover {
+			color: blue;
+		}
+		&:active {
+			color: red;
+		}
+   
+ }
+
+ ul {
+    float: right;
+    display: flex;
+ }
+
+ p {
+    color: #ffffff;
+    text-align: left;
+    padding-top: 50px;
+ }
+
+   .fa-github {
+        margin-left: 375px;
+        color: #ffffff;
+        padding: 50px;
+ }
+
+   .fa-wordpress {
+   
+       color: #ffffff;
+       padding: 50px;
+ }
+
+   .fa-linkedin {
+  
+       color: #ffffff;
+       padding: 50px;
+ }
+
