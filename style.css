@@ -778,6 +778,81 @@ p {
   padding: 50px;
 }
 
+@media (max-width: 600px) {
+  p {
+    text-align: center;
+    margin-right: 100px;
+  }
+
+  .fa {
+    display: inline;
+  }
+
+  .fa-github {
+    display: inline;
+    margin: 0px;
+  }
+
+  .fa-wordpress {
+    display: inline;
+    margin: 0px;
+  }
+
+  .fa-linkedin {
+    display: inline;
+    margin: 0px;
+  }
+}
+@media (max-width: 900px) {
+  p {
+    text-align: center;
+    margin-right: 100px;
+  }
+
+  .fa {
+    display: inline;
+  }
+
+  .fa-github {
+    display: inline;
+    margin: 0px;
+  }
+
+  .fa-wordpress {
+    display: inline;
+    margin: 0px;
+  }
+
+  .fa-linkedin {
+    display: inline;
+    margin: 0px;
+  }
+}
+@media (max-width: 1199px) {
+  p {
+    text-align: center;
+    margin-right: 100px;
+  }
+
+  .fa {
+    display: inline;
+  }
+
+  .fa-github {
+    display: inline;
+    margin: 0px;
+  }
+
+  .fa-wordpress {
+    display: inline;
+    margin: 0px;
+  }
+
+  .fa-linkedin {
+    display: inline;
+    margin: 0px;
+  }
+}
 /* Posts and pages
 --------------------------------------------- */
 .sticky {

@@ -61,3 +61,97 @@
        padding: 50px;
  }
 
+@media (max-width: 600px) {
+    .footer {
+       // background-color: aqua;
+    }
+
+    p {
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .fa {
+        display:inline;
+    }
+
+    .fa-github {
+        display: inline;
+        margin: 0px;
+    }
+
+    .fa-wordpress {
+        display: inline;
+        margin: 0px;
+    }
+
+    .fa-linkedin {
+        display: inline;
+        margin: 0px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .footer {
+       // background-color: lightgreen;
+    }
+
+    p {
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .fa {
+        display: inline;
+    }
+
+    .fa-github {
+        display: inline;
+        margin: 0px;
+    }
+
+    .fa-wordpress {
+        display: inline;
+        margin: 0px;
+    }
+
+    .fa-linkedin {
+        display: inline;
+        margin: 0px;
+    }
+
+
+}
+
+@media (max-width: 1199px) {
+    .footer {
+        //background-color: lightcoral;
+    }
+
+    p {
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .fa {
+        display: inline;
+    }
+
+    .fa-github {
+        display: inline;
+        margin: 0px;
+    }
+
+    .fa-wordpress {
+        display: inline;
+        margin: 0px;
+    }
+
+    .fa-linkedin {
+        display: inline;
+        margin: 0px;
+    }
+
+
+}
